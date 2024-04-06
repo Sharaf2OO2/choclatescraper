@@ -6,7 +6,8 @@
 import scrapy
 
 
-class ChoclatescraperItem(scrapy.Item):
+class ChoclateProduct(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    Name = scrapy.Field()
+    Price = scrapy.Field()
+    URL = scrapy.Field()
